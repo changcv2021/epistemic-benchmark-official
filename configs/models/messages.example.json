@@ -1,0 +1,6 @@
+{
+  "api_key_env": "EPI_API_KEY",
+  "endpoint_env": "EPI_API_BASE",
+  "model_id": "claude-opus-4-7",
+  "provider": "anthropic"
+}

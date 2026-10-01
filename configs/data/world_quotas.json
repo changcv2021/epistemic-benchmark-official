@@ -1,0 +1,205 @@
+{
+  "additional_development_worlds": 24,
+  "cross_constraints": {
+    "graph_signature_count": "measure actual normalized signatures; do not equate with template counts",
+    "max_worlds_per_relation_event_variant": 12,
+    "max_worlds_per_renderer_instance": 12,
+    "min_domains_per_relation": 12,
+    "min_material_event_variants_per_relation": 10,
+    "min_relations_per_domain": 8,
+    "min_substantive_background_event_families_target": 6,
+    "unreviewed_human_authorship": "pending; never label LLM output human-written"
+  },
+  "domains": {
+    "agriculture": 20,
+    "community_center": 20,
+    "construction": 20,
+    "event_planning": 20,
+    "facilities": 20,
+    "fleet": 20,
+    "home": 20,
+    "hotel": 20,
+    "it_operations": 20,
+    "library": 20,
+    "makerspace": 20,
+    "manufacturing": 20,
+    "media_production": 20,
+    "office": 20,
+    "research_lab": 20,
+    "restaurant": 20,
+    "retail": 20,
+    "school": 20,
+    "shipping": 20,
+    "software_development": 20,
+    "sports_club": 20,
+    "travel": 20,
+    "university": 20,
+    "utilities": 20,
+    "warehouse": 20
+  },
+  "formal_panels": {
+    "policy": {
+      "per_relation": {
+        "core": 16,
+        "naturalistic": 1,
+        "structural": 3
+      },
+      "subset_of": "reliability",
+      "worlds": 240
+    },
+    "reliability": {
+      "per_relation": {
+        "core": 20,
+        "naturalistic": 2,
+        "structural": 3
+      },
+      "worlds": 300
+    },
+    "truth_extra_probes": {
+      "same_panel_as": "policy",
+      "worlds": 240
+    }
+  },
+  "formal_worlds": 500,
+  "formats": {
+    "email_thread": 50,
+    "first_person_report": 50,
+    "group_chat": 50,
+    "handoff_notes": 50,
+    "incident_report": 50,
+    "meeting_minutes": 50,
+    "task_update_thread": 50,
+    "third_person_narrative": 50,
+    "timestamped_log": 50,
+    "two_person_dialogue": 50
+  },
+  "legacy_worlds_excluded": 50,
+  "note": "Same 500 unique formal worlds. F2=300 and F3/F4=240 remain nested subsets, not extra worlds. Source 1000-world package preserved as historical version.",
+  "panel_compatibility_rule": "F2/F3/F4 retain two-root G1 protocols; before any formal model output, select their 3 structural worlds/relation from the other 4 axes in balanced rotation. All 24 source-count worlds remain in F1.",
+  "panel_excluded_structural_axes": [
+    "source_count"
+  ],
+  "relations": [
+    {
+      "core": 27,
+      "id": "location",
+      "name_zh": "位置/包含",
+      "naturalistic": 8,
+      "structural": 10,
+      "total": 45
+    },
+    {
+      "core": 24,
+      "id": "custody",
+      "name_zh": "持有/保管",
+      "naturalistic": 6,
+      "structural": 10,
+      "total": 40
+    },
+    {
+      "core": 24,
+      "id": "assignment",
+      "name_zh": "任务分配/责任",
+      "naturalistic": 6,
+      "structural": 10,
+      "total": 40
+    },
+    {
+      "core": 24,
+      "id": "schedule",
+      "name_zh": "时间/预约",
+      "naturalistic": 6,
+      "structural": 10,
+      "total": 40
+    },
+    {
+      "core": 27,
+      "id": "state",
+      "name_zh": "状态/配置",
+      "naturalistic": 8,
+      "structural": 10,
+      "total": 45
+    },
+    {
+      "core": 24,
+      "id": "quantity",
+      "name_zh": "数量/可用性",
+      "naturalistic": 6,
+      "structural": 10,
+      "total": 40
+    },
+    {
+      "core": 24,
+      "id": "version",
+      "name_zh": "版本/引用对象",
+      "naturalistic": 6,
+      "structural": 10,
+      "total": 40
+    },
+    {
+      "core": 24,
+      "id": "permission",
+      "name_zh": "虚构系统内权限",
+      "naturalistic": 6,
+      "structural": 10,
+      "total": 40
+    },
+    {
+      "core": 20,
+      "id": "membership",
+      "name_zh": "组别/角色",
+      "naturalistic": 6,
+      "structural": 10,
+      "total": 36
+    },
+    {
+      "core": 27,
+      "id": "outcome",
+      "name_zh": "结果/流程状态",
+      "naturalistic": 8,
+      "structural": 10,
+      "total": 45
+    },
+    {
+      "core": 24,
+      "id": "priority",
+      "name_zh": "顺序/优先级",
+      "naturalistic": 6,
+      "structural": 10,
+      "total": 40
+    },
+    {
+      "core": 31,
+      "id": "routing",
+      "name_zh": "路由/目的地",
+      "naturalistic": 8,
+      "structural": 10,
+      "total": 49
+    }
+  ],
+  "splits": {
+    "core": 300,
+    "naturalistic": 80,
+    "structural": 120
+  },
+  "status": "PLANNED_NOT_GENERATED",
+  "structural_axes": [
+    "evidence_graph_topology",
+    "source_count",
+    "dependency_pattern",
+    "update_chain_length",
+    "role_configuration"
+  ],
+  "user_override": "300 Controlled Core + 120 Structural Generalization + 80 Naturalistic; continue after G1-X report",
+  "verified_base_counts": {
+    "C1": 63,
+    "C2": 62,
+    "C3": 62,
+    "C4": 63,
+    "C5": 62,
+    "C6": 63,
+    "C7": 63,
+    "C8": 62
+  },
+  "version": "v1.1_user_500"
+}

@@ -1,0 +1,7 @@
+License selection is pending author confirmation.
+
+This preparation artifact does not yet specify a code or dataset license.
+Choose and include the intended licenses before public distribution. Model
+weights and third-party software are not included; their own terms apply.
+
+The anonymous package intentionally contains no author or institution attribution.

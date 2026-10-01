@@ -1,0 +1,140 @@
+[
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "data.development",
+    "original_source_sha256": "9a5578eb93ded4db44c0bb59356aa96ed5a954d5271ec65621a182abcf2fe360",
+    "public_source_sha256": "09b25f27c3851cd5134aafd1b5f9702ba82f8ba9673985921a9472fd2b9652e1"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "data.worlds",
+    "original_source_sha256": "be0d66620ac6f10d54e0c9a24c60a7173de1263e5507806675e1d7fc26b5a57b",
+    "public_source_sha256": "e00d51d863bd2c1aea513ddc198199154c074fd6573bd1de8cc4db36ff1835de"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "data.quotas",
+    "original_source_sha256": "df92772ebca14bde012d77778ae7074bb2c1cc268f339905039d8d8676619fa6",
+    "public_source_sha256": "5ab8e4421621481691a9ae8b2bbc587ffc833d38948e35d5bdcacb77c7be3eb3"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "prompts.diagnostics",
+    "original_source_sha256": "0ad09e9b38dd1d1c34f34a84229d9ea421e6798cc0136e143cbc23805dce1d5e",
+    "public_source_sha256": "e0dc1b8f9e6fc2f93e42522abdab1528fc3e201d65136771c2462efe5680dd36"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "prompts.language",
+    "original_source_sha256": "fc14e587d666db18fdd62f9f8e68b8d9069ab6bbd8a98da0184e7daee90f32f9",
+    "public_source_sha256": "34dc0040acb35b9cf04775a2875c29c751d5241893c0ce2f17e6c8eb6efbd830"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "prompts.factorial",
+    "original_source_sha256": "a6326c1e5a32e2885dcd174386abc6883aaf1aa9489568c53edfc9f15aa151f4",
+    "public_source_sha256": "f2c4fe51f77bd7be3797e608af5fc36bd55c8ef5958d5509abb97dd2eb4fa1f5"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "prompts.naturalistic",
+    "original_source_sha256": "be98bf9e65d3739a39612538d64d4b48e2891bf4149562ceff25becc0731b5ac",
+    "public_source_sha256": "d7cba1be9a6b91897409f92fa0cc147ddf2ce117e9b90524915a5699ddec7752"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "prompts.padding",
+    "original_source_sha256": "eaf1401d27bf62e4b617edabe8d53d4fd7fdf237cd2c832d87435dc1d51f2bdd",
+    "public_source_sha256": "d2f49b27db091a62597f50b8d2649f9f90edb97116555854c1b969db3c2a6c62"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "analysis.statistics",
+    "original_source_sha256": "eb7049c0a554717c5449ef1aab05a7ee05b4bbb71f0f83b4f44298ee7ad7e248",
+    "public_source_sha256": "e60f15abcae4cd3400c512dbe7d5781400b52e1514e0cca410668c58e8d5f1f7"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "analysis.design",
+    "original_source_sha256": "9f35cc2948f94e8ed612e766aa0f2bbb6662b6fa67c4640040b5ecad69cfd86d",
+    "public_source_sha256": "04669ac394a7eaf0e8ae253773cbbc7f281d0accc9128547d3358cc5a317f191"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "analysis.diagnostics",
+    "original_source_sha256": "add1245e4d7efc01cd287ba4204ba955cfb35dcbcd8728b2d3cc0ee316bbc6c3",
+    "public_source_sha256": "d957aad67218b50bc17bf99593339f3c010622ce5386e3db2baef5e707c36e46"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "analysis.mechanisms",
+    "original_source_sha256": "59b047bb20d2717b82c85f1cf77793dd849852d6868175e698e66e98d41036d6",
+    "public_source_sha256": "4a75d9f3bd767d59af5b4f1fcbd06891fa8e1e489b7f0f4f94047cf87ded8ed9"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "analysis.predictive",
+    "original_source_sha256": "29006c18de75bf1eb44ea46fe44a55506ee87d3b11f39e781d3ee7ab85f52472",
+    "public_source_sha256": "f7098f3f0df236845bed1cd65f77577f92013e9fe9dcfb9abf31af9a06ec22a7"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "evaluation.scoring",
+    "original_source_sha256": "ef89e3ed9efd0588f57fb57e89b45fd791d5aee9c16b1d9411d55fbed09c645d",
+    "public_source_sha256": "1c8c47319c98af07686a72ce796a84c56e2289762ce3bc80893975c7de4c4942"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "evaluation.diagnostics",
+    "original_source_sha256": "9084a1c5b4217c000ea503515b79a83ce37dcea47301f251cedbc94190612b90",
+    "public_source_sha256": "e4c81494c89376c5ad422a167669f9acb424813f439574b037febf65c5676820"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "prompts.interventions",
+    "original_source_sha256": "4bd603c70d5133605b680134dee7df3bb54c9bccff5543f437bab11693289308",
+    "public_source_sha256": "b16d6cf9e90a4e6f01c283244122c76714fb1b338d38f88c823994df750dbf11"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "analysis.interventions",
+    "original_source_sha256": "3a5ac5df0c3b7dba7d5bcd2993a224567f2b1e48acf84ad22c7ede348f15378e",
+    "public_source_sha256": "595d157151f013a4bf49f2c5f9a9df44f72fa342e53585a1442bc981dbe01aa9"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "analysis.benchmark",
+    "original_source_sha256": "07be84b7a70a806f0c3f9cea19056b575fdb98aeffac3fe4f4243baa4bd7ab0a",
+    "public_source_sha256": "9940ac05871f54908699378c0b1939861d139f2cc61156a5a39ef96aa1ac4602"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "evaluation.parser",
+    "original_source_sha256": "7ae75e390d0a9a612b6c939d92390e0e99d93515610e10f7c0621882de67584c",
+    "public_source_sha256": "33214565f5dfdf558efd6cbbc54c635ebb6616fbd44654919bcc5ca44e68f737"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "evaluation.attempts",
+    "original_source_sha256": "592fec899fd2e57957db00de33a6b48ddd120491d779d81e7933892fd0066682",
+    "public_source_sha256": "72e856b433fc84613b309c468f73379c0544cb8b8a998e313c1c1c123b126e9b"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "backends.tokenization",
+    "original_source_sha256": "479b01c5856340f4edda883ff47afee7fb912ff0bf8ff7c00300e7a307985b99",
+    "public_source_sha256": "1807d43082000866262ac8f401b2048cea2b85691e7b7b3ed3c7e2d77e3adea4"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "prompts.benchmark",
+    "original_source_sha256": "0d49f79e7e1fb0b44dedf37e15b23e23293cd9a87065c131426623a705dd2370",
+    "public_source_sha256": "ff5036f77ff50fdafe17d262cfc79e94d8ae9bb0cc8cb25ea5c6b609ff7898b0"
+  },
+  {
+    "changes": "Import/path portability; historical orchestration removed; scientific function bodies retained, except documented portable quota/config lookup.",
+    "module": "prompts.expand",
+    "original_source_sha256": "47ba468446c6f148ab11d7a0a6fdc0f4edc91d7d3174d8d5927da833de9b245e",
+    "public_source_sha256": "d738f083425a215318f9c675f4fc51ccd825a38719e278809e8ce4302e045c06"
+  }
+]

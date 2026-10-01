@@ -1,0 +1,3 @@
+# Optional local serving stack. Install in a separate GPU environment.
+vllm==0.18.0
+# The portable API adapter uses the Python standard library.

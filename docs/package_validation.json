@@ -1,0 +1,40 @@
+{
+  "anonymity_scan": {
+    "credential_patterns": 0,
+    "email_addresses": 0,
+    "known_private_identifiers": 0,
+    "private_paths": 0,
+    "symlinks": 0
+  },
+  "experiment_answers_included": false,
+  "experiment_scores_included": false,
+  "external_working_directory_cli": "passed",
+  "model_calls": 0,
+  "numpy_version": "2.2.6",
+  "python_version": "3.12.6",
+  "software_tests": 11,
+  "source_modules": 38,
+  "status": "passed",
+  "studies": [
+    {
+      "requests": 24000,
+      "status": "passed",
+      "study": "benchmark",
+      "worlds": 500
+    },
+    {
+      "requests": 41020,
+      "status": "passed",
+      "study": "diagnostics",
+      "worlds": 500
+    },
+    {
+      "requests": 50000,
+      "status": "passed",
+      "study": "interventions",
+      "worlds": 500
+    }
+  ],
+  "uncompressed_data_hashes": "all_match",
+  "validation_scope": "Imports, synthetic protocol tests, complete input/label denominators, independent contexts, compressed and uncompressed hashes, known-identifier and generic credential scanning. No historical result data and no full statistical rerun."
+}

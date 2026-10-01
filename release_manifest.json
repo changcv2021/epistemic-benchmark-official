@@ -1,0 +1,11 @@
+{
+  "artifact": "epistemic-benchmark",
+  "content": "Frozen synthetic inputs, labels, source code, scientific configuration, tests and documentation.",
+  "experiment_results_included": false,
+  "license_status": "pending_author_selection",
+  "model_responses_included": false,
+  "model_scores_included": false,
+  "version": "0.1.0-anonymous",
+  "weights_included": false,
+  "worlds": 500
+}

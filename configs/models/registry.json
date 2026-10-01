@@ -1,0 +1,546 @@
+[
+  {
+    "backend": "vllm",
+    "backend_version": "0.18.0",
+    "chat_template_hash": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+    "checkpoint_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "dtype": "bfloat16",
+    "identity": {
+      "chat_template_hash": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "repo_id": "Qwen/Qwen3.5-2B",
+      "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "tokenizer_hash": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093",
+      "weights_sha256_manifest": "b47f5dd5e1febe2229859c5959e2c04db8ed16242435e27375b9d92ef2d6fa08"
+    },
+    "max_model_len": 16384,
+    "max_output_tokens": 256,
+    "model_id": "Qwen/Qwen3.5-2B",
+    "model_index": 0,
+    "profile": {
+      "backend": "vllm",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "concurrency": 1,
+      "dtype": "bfloat16",
+      "frequency_penalty": 0,
+      "max_model_len": 16384,
+      "max_tokens": 256,
+      "presence_penalty": 0,
+      "profile_id": "greedy_non_thinking_v0.2",
+      "repetition_penalty": 1,
+      "retry": {
+        "backoff_seconds": [
+          1,
+          4
+        ],
+        "http_statuses": [
+          408,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "max_attempts": 3
+      },
+      "seed": 20260928,
+      "temperature": 0,
+      "timeout_seconds": 120,
+      "top_k": -1,
+      "top_p": 1
+    },
+    "settings_cohort": "greedy_non_thinking",
+    "tokenizer_hash": "58b10b60732220de7cbd044bd711bc5f8a0e172b6e2fb82a910570cab393f093"
+  },
+  {
+    "backend": "vllm",
+    "backend_version": "0.18.0",
+    "chat_template_hash": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "checkpoint_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "dtype": "bfloat16",
+    "identity": {
+      "chat_template_hash": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "repo_id": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "tokenizer_hash": "0756ac9b9343d39ddeda2767a3a18574f4f25cbb6281d0cf2c77572ed82ba9e9",
+      "weights_sha256_manifest": "00078e74088aa94c6531ba3ffa4cbd93ba3c9d3a37b3a512e41de993037b2a36"
+    },
+    "max_model_len": 16384,
+    "max_output_tokens": 256,
+    "model_id": "Qwen/Qwen3.5-4B",
+    "model_index": 1,
+    "profile": {
+      "backend": "vllm",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "concurrency": 1,
+      "dtype": "bfloat16",
+      "frequency_penalty": 0,
+      "max_model_len": 16384,
+      "max_tokens": 256,
+      "presence_penalty": 0,
+      "profile_id": "greedy_non_thinking_v0.2",
+      "repetition_penalty": 1,
+      "retry": {
+        "backoff_seconds": [
+          1,
+          4
+        ],
+        "http_statuses": [
+          408,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "max_attempts": 3
+      },
+      "seed": 20260928,
+      "temperature": 0,
+      "timeout_seconds": 120,
+      "top_k": -1,
+      "top_p": 1
+    },
+    "settings_cohort": "greedy_non_thinking",
+    "tokenizer_hash": "0756ac9b9343d39ddeda2767a3a18574f4f25cbb6281d0cf2c77572ed82ba9e9"
+  },
+  {
+    "backend": "vllm",
+    "backend_version": "0.18.0",
+    "chat_template_hash": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "checkpoint_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "dtype": "bfloat16",
+    "identity": {
+      "chat_template_hash": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "repo_id": "Qwen/Qwen3.5-9B",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "tokenizer_hash": "0756ac9b9343d39ddeda2767a3a18574f4f25cbb6281d0cf2c77572ed82ba9e9",
+      "weights_sha256_manifest": "72aa72b38c979bc0fb76bc603bba0d8cacba37f7d8ca5bb4f51c904cccb61746"
+    },
+    "max_model_len": 16384,
+    "max_output_tokens": 256,
+    "model_id": "Qwen/Qwen3.5-9B",
+    "model_index": 2,
+    "profile": {
+      "backend": "vllm",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "concurrency": 1,
+      "dtype": "bfloat16",
+      "frequency_penalty": 0,
+      "max_model_len": 16384,
+      "max_tokens": 256,
+      "presence_penalty": 0,
+      "profile_id": "greedy_non_thinking_v0.2",
+      "repetition_penalty": 1,
+      "retry": {
+        "backoff_seconds": [
+          1,
+          4
+        ],
+        "http_statuses": [
+          408,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "max_attempts": 3
+      },
+      "seed": 20260928,
+      "temperature": 0,
+      "timeout_seconds": 120,
+      "top_k": -1,
+      "top_p": 1
+    },
+    "settings_cohort": "greedy_non_thinking",
+    "tokenizer_hash": "0756ac9b9343d39ddeda2767a3a18574f4f25cbb6281d0cf2c77572ed82ba9e9"
+  },
+  {
+    "backend": "vllm",
+    "backend_version": "0.18.0",
+    "chat_template_hash": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "checkpoint_revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+    "dtype": "bfloat16",
+    "identity": {
+      "chat_template_hash": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "tokenizer_hash": "0756ac9b9343d39ddeda2767a3a18574f4f25cbb6281d0cf2c77572ed82ba9e9",
+      "weights_sha256_manifest": "912b91025d7a199ceb05e3b4c08915d918209b641b5f83b0327d3d38160dcd1e"
+    },
+    "max_model_len": 16384,
+    "max_output_tokens": 256,
+    "model_id": "Qwen/Qwen3.5-27B",
+    "model_index": 3,
+    "profile": {
+      "backend": "vllm",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "concurrency": 1,
+      "dtype": "bfloat16",
+      "frequency_penalty": 0,
+      "max_model_len": 16384,
+      "max_tokens": 256,
+      "presence_penalty": 0,
+      "profile_id": "greedy_non_thinking_v0.2",
+      "repetition_penalty": 1,
+      "retry": {
+        "backoff_seconds": [
+          1,
+          4
+        ],
+        "http_statuses": [
+          408,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "max_attempts": 3
+      },
+      "seed": 20260928,
+      "temperature": 0,
+      "timeout_seconds": 120,
+      "top_k": -1,
+      "top_p": 1
+    },
+    "settings_cohort": "greedy_non_thinking",
+    "tokenizer_hash": "0756ac9b9343d39ddeda2767a3a18574f4f25cbb6281d0cf2c77572ed82ba9e9"
+  },
+  {
+    "backend": "vllm",
+    "backend_version": "0.18.0",
+    "chat_template_hash": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259",
+    "checkpoint_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+    "dtype": "bfloat16",
+    "identity": {
+      "chat_template_hash": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259",
+      "repo_id": "Qwen/Qwen3.6-27B",
+      "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+      "tokenizer_hash": "0376960d7895347fcfb4e1557543c0d2f4657bdf7eeeddd20d30c467a2dd0266",
+      "weights_sha256_manifest": "872d492bebf6229f904bdd47dfa69376ef84975194502beab2b412dab7181f53"
+    },
+    "max_model_len": 16384,
+    "max_output_tokens": 256,
+    "model_id": "Qwen/Qwen3.6-27B",
+    "model_index": 4,
+    "profile": {
+      "backend": "vllm",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "concurrency": 1,
+      "dtype": "bfloat16",
+      "frequency_penalty": 0,
+      "max_model_len": 16384,
+      "max_tokens": 256,
+      "presence_penalty": 0,
+      "profile_id": "greedy_non_thinking_v0.2",
+      "repetition_penalty": 1,
+      "retry": {
+        "backoff_seconds": [
+          1,
+          4
+        ],
+        "http_statuses": [
+          408,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "max_attempts": 3
+      },
+      "seed": 20260928,
+      "temperature": 0,
+      "timeout_seconds": 120,
+      "top_k": -1,
+      "top_p": 1
+    },
+    "settings_cohort": "greedy_non_thinking",
+    "tokenizer_hash": "0376960d7895347fcfb4e1557543c0d2f4657bdf7eeeddd20d30c467a2dd0266"
+  },
+  {
+    "backend": "vllm",
+    "backend_version": "0.18.0",
+    "chat_template_hash": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "checkpoint_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "dtype": "bfloat16",
+    "identity": {
+      "chat_template_hash": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "repo_id": "Qwen/Qwen3.8-27B",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "tokenizer_hash": "3b0d63376fde773a27ae396ee77446063ead10bbb7b0b376932410da818226a6",
+      "weights_sha256_manifest": "e740801026dfe23d6fc5793129955a238d5e0ca6a42106bccc2f505590fd0dc2"
+    },
+    "max_model_len": 16384,
+    "max_output_tokens": 256,
+    "model_id": "Qwen/Qwen3.8-27B",
+    "model_index": 5,
+    "profile": {
+      "backend": "vllm",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "concurrency": 1,
+      "dtype": "bfloat16",
+      "frequency_penalty": 0,
+      "max_model_len": 16384,
+      "max_tokens": 256,
+      "presence_penalty": 0,
+      "profile_id": "greedy_non_thinking_v0.2",
+      "repetition_penalty": 1,
+      "retry": {
+        "backoff_seconds": [
+          1,
+          4
+        ],
+        "http_statuses": [
+          408,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "max_attempts": 3
+      },
+      "seed": 20260928,
+      "temperature": 0,
+      "timeout_seconds": 120,
+      "top_k": -1,
+      "top_p": 1
+    },
+    "settings_cohort": "greedy_non_thinking",
+    "tokenizer_hash": "3b0d63376fde773a27ae396ee77446063ead10bbb7b0b376932410da818226a6"
+  },
+  {
+    "backend": "vllm",
+    "backend_version": "0.18.0",
+    "chat_template_hash": "b3e3fa7cdeceec1d3dfe0d17b77724baf3857714e688f3a700261567e96140eb",
+    "checkpoint_revision": "741a7d03020411e666c6109218ab71e08151ef86",
+    "dtype": "bfloat16",
+    "identity": {
+      "chat_template_hash": "b3e3fa7cdeceec1d3dfe0d17b77724baf3857714e688f3a700261567e96140eb",
+      "repo_id": "OpenGVLab/InternVL3_5-8B-HF",
+      "revision": "741a7d03020411e666c6109218ab71e08151ef86",
+      "tokenizer_hash": "fd872a6f04e0fd4f4a26b1213a682608f515b4f82072b09badf2e63f8bd95aee",
+      "weights_sha256_manifest": "7361ceb3721b9e173409480ad3696c99f11b4c1c3dfc8f3a285924b883af4e7f"
+    },
+    "max_model_len": 16384,
+    "max_output_tokens": 256,
+    "model_id": "OpenGVLab/InternVL3_5-8B-HF",
+    "model_index": 6,
+    "profile": {
+      "backend": "vllm",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "concurrency": 1,
+      "dtype": "bfloat16",
+      "frequency_penalty": 0,
+      "max_model_len": 16384,
+      "max_tokens": 256,
+      "presence_penalty": 0,
+      "profile_id": "greedy_non_thinking_v0.2",
+      "repetition_penalty": 1,
+      "retry": {
+        "backoff_seconds": [
+          1,
+          4
+        ],
+        "http_statuses": [
+          408,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "max_attempts": 3
+      },
+      "seed": 20260928,
+      "temperature": 0,
+      "timeout_seconds": 120,
+      "top_k": -1,
+      "top_p": 1
+    },
+    "settings_cohort": "greedy_non_thinking",
+    "tokenizer_hash": "fd872a6f04e0fd4f4a26b1213a682608f515b4f82072b09badf2e63f8bd95aee"
+  },
+  {
+    "backend": "vllm",
+    "backend_version": "0.18.0",
+    "chat_template_hash": "b3e3fa7cdeceec1d3dfe0d17b77724baf3857714e688f3a700261567e96140eb",
+    "checkpoint_revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+    "dtype": "bfloat16",
+    "identity": {
+      "chat_template_hash": "b3e3fa7cdeceec1d3dfe0d17b77724baf3857714e688f3a700261567e96140eb",
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "tokenizer_hash": "fd872a6f04e0fd4f4a26b1213a682608f515b4f82072b09badf2e63f8bd95aee",
+      "weights_sha256_manifest": "7ce088e530e7c768b13f4d7728d04f730d51c4fb522e0ea6e5fc2de14a2512df"
+    },
+    "max_model_len": 16384,
+    "max_output_tokens": 256,
+    "model_id": "OpenGVLab/InternVL3_5-14B-HF",
+    "model_index": 7,
+    "profile": {
+      "backend": "vllm",
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      },
+      "concurrency": 1,
+      "dtype": "bfloat16",
+      "frequency_penalty": 0,
+      "max_model_len": 16384,
+      "max_tokens": 256,
+      "presence_penalty": 0,
+      "profile_id": "greedy_non_thinking_v0.2",
+      "repetition_penalty": 1,
+      "retry": {
+        "backoff_seconds": [
+          1,
+          4
+        ],
+        "http_statuses": [
+          408,
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "max_attempts": 3
+      },
+      "seed": 20260928,
+      "temperature": 0,
+      "timeout_seconds": 120,
+      "top_k": -1,
+      "top_p": 1
+    },
+    "settings_cohort": "greedy_non_thinking",
+    "tokenizer_hash": "fd872a6f04e0fd4f4a26b1213a682608f515b4f82072b09badf2e63f8bd95aee"
+  },
+  {
+    "backend": "openai_compatible",
+    "backend_version": null,
+    "chat_template_hash": null,
+    "checkpoint_revision": null,
+    "dtype": null,
+    "identity": {
+      "chat_template_hash": null,
+      "provider": "openai_compatible",
+      "repo_id": "grok-4.3",
+      "revision": null,
+      "tokenizer_hash": null,
+      "weights_sha256_manifest": null
+    },
+    "max_model_len": null,
+    "max_output_tokens": null,
+    "model_id": "grok-4.3",
+    "model_index": 8,
+    "request_settings": {},
+    "settings_cohort": "provider_native",
+    "tokenizer_hash": null
+  },
+  {
+    "backend": "anthropic",
+    "backend_version": null,
+    "chat_template_hash": null,
+    "checkpoint_revision": null,
+    "dtype": null,
+    "identity": {
+      "chat_template_hash": null,
+      "provider": "anthropic",
+      "repo_id": "claude-opus-4-7",
+      "revision": null,
+      "tokenizer_hash": null,
+      "weights_sha256_manifest": null
+    },
+    "max_model_len": null,
+    "max_output_tokens": 1024,
+    "model_id": "claude-opus-4-7",
+    "model_index": 9,
+    "request_settings": {
+      "max_tokens": 1024
+    },
+    "settings_cohort": "provider_native",
+    "tokenizer_hash": null
+  },
+  {
+    "backend": "openai_responses",
+    "backend_version": null,
+    "chat_template_hash": null,
+    "checkpoint_revision": null,
+    "dtype": null,
+    "identity": {
+      "chat_template_hash": null,
+      "provider": "openai_responses",
+      "repo_id": "gpt-5.4",
+      "revision": null,
+      "tokenizer_hash": null,
+      "weights_sha256_manifest": null
+    },
+    "max_model_len": null,
+    "max_output_tokens": null,
+    "model_id": "gpt-5.4",
+    "model_index": 10,
+    "request_settings": {},
+    "settings_cohort": "provider_native",
+    "tokenizer_hash": null
+  },
+  {
+    "backend": "openai_responses",
+    "backend_version": null,
+    "chat_template_hash": null,
+    "checkpoint_revision": null,
+    "dtype": null,
+    "identity": {
+      "chat_template_hash": null,
+      "provider": "openai_responses",
+      "repo_id": "gpt-6-sol",
+      "revision": null,
+      "tokenizer_hash": null,
+      "weights_sha256_manifest": null
+    },
+    "max_model_len": null,
+    "max_output_tokens": null,
+    "model_id": "gpt-6-sol",
+    "model_index": 11,
+    "request_settings": {},
+    "settings_cohort": "provider_native",
+    "tokenizer_hash": null
+  },
+  {
+    "backend": "openai_compatible",
+    "backend_version": null,
+    "chat_template_hash": null,
+    "checkpoint_revision": null,
+    "dtype": null,
+    "identity": {
+      "chat_template_hash": null,
+      "provider": "openai_compatible",
+      "repo_id": "Kimi-K2.6",
+      "revision": null,
+      "tokenizer_hash": null,
+      "weights_sha256_manifest": null
+    },
+    "max_model_len": null,
+    "max_output_tokens": null,
+    "model_id": "Kimi-K2.6",
+    "model_index": 12,
+    "request_settings": {},
+    "settings_cohort": "provider_native",
+    "tokenizer_hash": null
+  }
+]

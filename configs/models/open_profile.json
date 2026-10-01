@@ -1,0 +1,34 @@
+{
+  "backend": "vllm",
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "concurrency": 1,
+  "dtype": "bfloat16",
+  "frequency_penalty": 0,
+  "max_model_len": 16384,
+  "max_tokens": 256,
+  "presence_penalty": 0,
+  "profile_id": "greedy_non_thinking_v0.2",
+  "repetition_penalty": 1,
+  "retry": {
+    "backoff_seconds": [
+      1,
+      4
+    ],
+    "http_statuses": [
+      408,
+      429,
+      500,
+      502,
+      503,
+      504
+    ],
+    "max_attempts": 3
+  },
+  "seed": 20260928,
+  "temperature": 0,
+  "timeout_seconds": 120,
+  "top_k": -1,
+  "top_p": 1
+}

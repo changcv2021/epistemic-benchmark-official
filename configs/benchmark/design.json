@@ -1,0 +1,54 @@
+{
+  "analysis": {
+    "bootstrap_repetitions": 5000,
+    "bootstrap_unit": "world",
+    "independent_probes": "Behavioral availability/influence only, not same-forward-pass knowledge",
+    "missing": "All planned denominators; no invalid unverified answer imputation; paired valid effects and full-denominator worst-case bounds",
+    "multiple_comparisons": "No pooled significance ranking. Prespecified descriptive 95% intervals for all profiles, factorial interactions and cross-family extension.",
+    "overall_score": false,
+    "primary_subset": "core",
+    "report_order": [
+      "core",
+      "structural",
+      "naturalistic",
+      "all"
+    ],
+    "seed": 20261001,
+    "selected_P3c": "Both HL and LH independent P3c answers correct; descriptive selection only"
+  },
+  "material_extension": "Existing inputs remain byte-identical. Missing reliability/time/report-count controls use the frozen two-root diagnostic generator and original naturalistic/padding functions on the unchanged worlds. T1 CORE/T2/T5 retain full original world graphs; diagnostic overlays are reported explicitly.",
+  "model_formats": "InternVL official HF-format full checkpoints, exact cached revisions audited against upstream; no quantization. Closed model weight/tokenizer hashes are unavailable and must be null, not invented.",
+  "requests_per_model": 24000,
+  "requests_per_world": 48,
+  "splits": {
+    "core": 300,
+    "naturalistic": 80,
+    "structural": 120
+  },
+  "tracks": {
+    "T1": {
+      "initial_state": "P1 in all eight CORE conditions",
+      "relative_reliability": "P3c for HH/LL/HL/LH with AB conflicting reports and NONE suffix",
+      "requests_per_world": 28,
+      "secondary_exact_count": "P3a/P3b for the same four profiles, unchanged integer protocol across all models",
+      "source_provenance": "P2 in all eight CORE conditions; report joint accuracy and separately score the returned option's bindings, root_count and quality fields against the original gold"
+    },
+    "T2": {
+      "requests_per_world": 8,
+      "task": "CORE C1-C8 P4"
+    },
+    "T3": {
+      "requests_per_world": 2,
+      "task": "R.HL/LH.AB.NONE.P4; paired with independent P3c from T1"
+    },
+    "T4": {
+      "requests_per_world": 8,
+      "task": "T A_first/B_first x 08:00/12:00 P4 and C1/C2/C3/C4 P4"
+    },
+    "T5": {
+      "requests_per_world": 2,
+      "task": "VERIFIED_A/B D4"
+    }
+  },
+  "worlds": 500
+}

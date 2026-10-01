@@ -1,0 +1,81 @@
+{
+  "C0_drift": "Compare rerun C0 to the exact previous diagnostics source request where it existed; report paired valid coverage and semantic flips. Never reuse diagnostics answers as intervention outputs.",
+  "H1": "Ledger has larger absolute T2 reliability influence than Flat and Sham; directional interpretation additionally requires positive normative reliability influence.",
+  "H2": "Ledger+Rule adds reliability influence beyond Ledger; report cue-specific changes rather than an aggregate accuracy claim.",
+  "H3": "Reduced absolute text-order effect, while positive event-time influence is preserved or increased. Check both simple text-order effects for cancellation.",
+  "H4": "Lineage influence preserved/enhanced without parallel increase in repetition influence; report speaker multiplicity separately.",
+  "H5": "Verified accuracy must not be systematically harmed. Report paired inclusive and valid-only changes and format changes; descriptive preservation requires lower 95% bound >= -0.02, a fixed two-percentage-point bound, not a rule for further prompt tuning.",
+  "absolute_effect_estimand": "abs(mean intervention effect)-abs(mean control effect), recomputed in each shared bootstrap draw over paired complete worlds; never substitute mean(abs(world effect)). Report signed effects alongside absolute effects so wrong-direction increases are visible.",
+  "additional_comparisons": [
+    [
+      "C1",
+      "C0"
+    ],
+    [
+      "C3",
+      "C0"
+    ],
+    [
+      "C4",
+      "C0"
+    ],
+    [
+      "C2",
+      "C1"
+    ]
+  ],
+  "bootstrap_repetitions": 5000,
+  "effect_definitions": {
+    "Format_validity": "Mean validity across all 20 requests per world and intervention.",
+    "T1": "Frozen diagnostics coefficients for R,Q,I and all two/three-way interactions; require all eight P4 choices valid for a world.",
+    "T2_R": "B(LH)-B(HL), positive means greater B choice when the B source has the better historical record.",
+    "T3_Text": "Mean across early/late event times of B(B_first)-B(A_first). Also report both simple text-order effects and their absolute magnitudes to expose cancellation.",
+    "T3_Text_x_Time": "Text-order effect at 12:00 minus that at 08:00.",
+    "T3_Time": "Mean across both text orders of B(12:00)-B(08:00). Also report both simple event-time effects.",
+    "T4_Lineage": "B(S4)-B(S3)",
+    "T4_Repetition": "B(S2)-B(S1)",
+    "T4_Speakers": "B(S3)-B(S2)",
+    "T5_Verified_inclusive": "Mean accuracy across both verified truth versions, denominator all planned requests. Technical and format failures score zero, reported separately.",
+    "T5_Verified_valid_pair": "Mean accuracy on worlds with both verified choices valid, with full planned and usable denominators."
+  },
+  "heterogeneity_subsets": [
+    "structural",
+    "naturalistic"
+  ],
+  "interpretation": "No outcome-dependent world selection or prompt revision. Case A-E labels require their actual contrast evidence; crossing zero does not prove equivalence or no effect. Independent probes are not same-forward-pass internal knowledge.",
+  "main_subsets": [
+    "all",
+    "core"
+  ],
+  "missingness": "Never impute invalid unverified choices as A. Show full planned counts, technical failures, format states, usable worlds, and worst-case bounds over all planned worlds. Verify truth accuracy has a separately explicit protocol-inclusive estimand.",
+  "multiplicity": "One Holm family: 3 models x 2 main subsets x 4 comparisons x 2 endpoints. Retain NA members; never shrink the planned family.",
+  "p_value": "Two-sided centered-bootstrap approximation for the 48-member primary family; 95% percentile intervals. Flag degenerate and small-cluster intervals; zero observed errors is not zero population risk.",
+  "paired_estimand": "Linear effects: intervention-minus-control difference within each world with all required cells valid on both sides, then mean over worlds. Resample these paired world vectors, never individual requests.",
+  "primary_comparisons": [
+    [
+      "C3",
+      "C2"
+    ],
+    [
+      "C3",
+      "C1"
+    ],
+    [
+      "C4",
+      "C3"
+    ],
+    [
+      "C2",
+      "C0"
+    ]
+  ],
+  "primary_endpoints": [
+    "T2_R",
+    "abs_T3_Text"
+  ],
+  "primary_family_size": 48,
+  "secondary_analysis": "Renderer-cluster sensitivity for primary paired comparisons; remaining effects and structural/naturalistic subsets descriptive. No mixed-effects model is added.",
+  "seed": 20261001,
+  "unit": "world",
+  "version": "intervention_v1_pre_inference"
+}
