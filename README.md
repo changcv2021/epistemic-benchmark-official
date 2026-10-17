@@ -1,6 +1,6 @@
-#What Counts as Evidence? Epistemic Cue Utilization in Large Language Models
 
-# Evidence Integration Benchmark
+
+# What Counts as Evidence? Epistemic Cue Utilization in Large Language Models
 
 <a href="https://arxiv.org/abs/2610.12788">
   <img src="https://img.shields.io/badge/READ%20PAPER-arXiv%202610.12788-DC2626?style=for-the-badge&amp;labelColor=991B1B" height="38" alt="Read Paper">
