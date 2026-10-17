@@ -1,5 +1,9 @@
 # Evidence Integration Benchmark
 
+<a href="https://arxiv.org/abs/2610.12788">
+  <img src="https://img.shields.io/badge/READ%20PAPER-arXiv%202610.12788-DC2626?style=for-the-badge&amp;labelColor=991B1B" height="38" alt="Read Paper">
+</a>
+
 Anonymous research artifact for measuring how language models respond to evidence
 quality, source reliability, source dependence, report multiplicity, event time,
 and presentation order. The intervention study compares matched prompt appendices.
